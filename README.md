@@ -13,6 +13,8 @@ https://micropython.org/webrepl/
         ap.config(essid="costycnc", password="costycnc")
         webrepl.start()
 
+        exec(open("test.py").read())
+
         
 serial terminal https://www.serialterminal.com/
 
