@@ -14,3 +14,4 @@ https://micropython.org/webrepl/
         webrepl.start()
 
         
+serial terminal https://www.serialterminal.com/
