@@ -3,3 +3,5 @@
         ap = network.WLAN(network.AP_IF)
         ap.active(True)
         ap.config(essid="costycnc", password="costycnc")
+
+https://micropython.org/webrepl/        
