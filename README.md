@@ -57,8 +57,20 @@ Insert line by line in terminal and send...
 
  # 4-Download WEBREPL HTML 
 
- 
+ Download https://github.com/micropython/webrepl  in your computer and open webrepl.html
 
- # 4-Connect with AP "costycnc"
+  ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl3.jpg)
+
+ 
+ # 5-Connect with AP "costycnc" psw "costycnc"
+
+  ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl2.jpg)
+
+ # 6-Connect with WEBREPL 
+
+ Insert adress ws://192.168.4.1:8266 and when ask for psw insert costycnc ... now you are conected over wifi !!!
+
+  ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl4.jpg)
+ 
 
 
