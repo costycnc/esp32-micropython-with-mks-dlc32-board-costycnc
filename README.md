@@ -2,6 +2,30 @@
 
  ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/mks.jpg)
 
+ #What is Makerbase MKS DLC32 ?
+
+ On official github page https://github.com/makerbase-mks/MKS-DLC32 did:
+
+      MKS DLC32 motherboard kit, which is an offline engraving master control kit developed for desktop engraving machines.
+      The hardware is equipped with a 32-bit high-speed ESP32 module, integrated WIFI function,
+      and directly drives a 3.5-inch touch color screen; 
+      it can realize fast engraving and WEB web pages. 
+      Control, mobile phone APP control and other functions.
+     The mounting holes and board size of MKS DLC32 are compatible with MKS DLC, 
+     and the it can also be used with the LaserGRBL and LightBurn PC software.
+
+ Also here https://github.com/makerbase-mks/MKS-DLC32 you find all firmware compatible with mks dlc32.
+
+ #What want this project
+
+ In this project explain how install micropython on mks dlc32 and use custom commands to control the board.
+
+ Certainly , is very difficult to create with micropython a program like original ,i can did impossible , but with micropython you can learn base of programming 
+
+ and open curiosity about how working a firmware or how command steppers motors ,ecc!!!
+
+ #Some useful links and informations
+
 https://docs.micropython.org/en/latest/esp32/tutorial/intro.html
 
     import network
