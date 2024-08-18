@@ -1,5 +1,7 @@
 # How use board makerbase mks dlc32 with micropython for custom application
 
+ ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/mks.jpg)
+
 https://docs.micropython.org/en/latest/esp32/tutorial/intro.html
 
     import network
