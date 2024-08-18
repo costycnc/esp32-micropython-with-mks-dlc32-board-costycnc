@@ -102,7 +102,7 @@ Insert line by line in terminal and send...
 
   For example you can download and modify the boot.py
   
-    ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl5.jpg)
+   ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl5.jpg)
     
   you can insert in boot.py 
 
