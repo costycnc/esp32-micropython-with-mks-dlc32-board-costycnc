@@ -43,7 +43,7 @@ webrepl source https://github.com/micropython/webrepl
 
 # 3-Set esp32 as AP mode (access point) 
 
-
+Insert line by line in terminal and send...
 
     import network
     import webrepl
@@ -51,3 +51,8 @@ webrepl source https://github.com/micropython/webrepl
     ap.active(True)
     ap.config(essid="costycnc", password="costycnc")
     webrepl.start()
+
+    
+ ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl1.jpg)
+
+
