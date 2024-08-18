@@ -104,14 +104,14 @@ Insert line by line in terminal and send...
   
    ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl5.jpg)
     
-  you can insert in boot.py 
+  you can download boot.py ,insert code bellow and upload .The boot.py will be read after any boot 
 
     import network
     ap = network.WLAN(network.AP_IF)
     ap.active(True)
     ap.config(essid="costycnc", password="costycnc")
 
-to activate AP when boot    
+and with this code activate AP at any boot    
 
 
  
