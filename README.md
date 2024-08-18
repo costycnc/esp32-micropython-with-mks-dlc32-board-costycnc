@@ -29,4 +29,10 @@ webrepl source https://github.com/micropython/webrepl
 
 # 1-Upload firmware to esp32
 
-Download to computer the apropiate firmware or 
+Download to computer the apropiate firmware or (for windows) download ESP32_GENERIC-20240602-v1.23.0.bin,esptool.exe and test.bat ... insert usb cable 
+
+open test.bat with a text editor and change port com3 with your port
+
+Execute test.bat and firmware will be uploaded to esp32
+
+... Or use https://esp.huhn.me/
