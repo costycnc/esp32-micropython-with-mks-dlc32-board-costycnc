@@ -2,7 +2,14 @@
 
 https://docs.micropython.org/en/latest/esp32/tutorial/intro.html
 
-https://micropython.org/download/#esp32
+    import network
+    import webrepl
+    ap = network.WLAN(network.AP_IF)
+    ap.active(True)
+    ap.config(essid="costycnc", password="costycnc")
+    webrepl.start()
+
+    exec(open("test.py").read())
 
 https://micropython.org/webrepl/
 
@@ -20,4 +27,6 @@ serial terminal https://www.serialterminal.com/
 
 webrepl source https://github.com/micropython/webrepl
 
-# Download file
+# 1-Upload firmware to esp32
+
+Download to computer the apropiate firmware or 
