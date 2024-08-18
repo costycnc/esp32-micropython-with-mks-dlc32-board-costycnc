@@ -71,6 +71,24 @@ Insert line by line in terminal and send...
  Insert adress ws://192.168.4.1:8266 and when ask for psw insert costycnc ... now you are conected over wifi !!!
 
   ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl4.jpg)
+
+
+  # 7-Now you can upload files to or download files from root
+
+  For example you can download and modify the boot.py
+  
+    ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl5.jpg)
+    
+  you can insert in boot.py 
+
+    import network
+    ap = network.WLAN(network.AP_IF)
+    ap.active(True)
+    ap.config(essid="costycnc", password="costycnc")
+
+to activate AP when boot    
+
+
  
 
 
