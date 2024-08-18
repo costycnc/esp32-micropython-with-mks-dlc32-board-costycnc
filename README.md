@@ -32,8 +32,22 @@ webrepl source https://github.com/micropython/webrepl
     Download to computer the apropiate firmware or (for windows) download ESP32_GENERIC-20240602-v1.23.0.bin,esptool.exe and test.bat ... insert usb cable 
     open test.bat with a text editor and change port com3 with your port
     Execute test.bat and firmware will be uploaded to esp32
-    ... Or use https://esp.huhn.me/
+    
+... Or use https://esp.huhn.me/
 
-# 2-Set esp32 as AP mode (access point) 
+# 2-Activate webrerepl
 
-     Open https://www.serialterminal.com/ or another terminal , and connect over usb with esp32
+ Open https://www.serialterminal.com/ or another terminal (at 115200 bauds), and connect over usb with esp32 ... and write "import webrepl_setup"
+
+ ![](https://cdn-learn.adafruit.com/assets/assets/000/037/676/original/micropython_Screen_Shot_2016-12-02_at_1.27.43_PM.png)
+
+# 3-Set esp32 as AP mode (access point) 
+
+
+
+    import network
+    import webrepl
+    ap = network.WLAN(network.AP_IF)
+    ap.active(True)
+    ap.config(essid="costycnc", password="costycnc")
+    webrepl.start()
