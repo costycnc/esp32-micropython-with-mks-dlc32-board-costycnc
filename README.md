@@ -55,4 +55,10 @@ Insert line by line in terminal and send...
     
  ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl1.jpg)
 
+ # 4-Download WEBREPL HTML 
+
+ 
+
+ # 4-Connect with AP "costycnc"
+
 
