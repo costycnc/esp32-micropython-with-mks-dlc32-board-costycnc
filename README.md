@@ -35,7 +35,7 @@ webrepl source https://github.com/micropython/webrepl
     
 ... Or use https://esp.huhn.me/
 
-# 2-Activate webrerepl
+# 2-Activate webrepl
 
  Open https://www.serialterminal.com/ or another terminal (at 115200 bauds), and connect over usb with esp32 ... and write "import webrepl_setup" and put password costycnc for easy reminder
 
