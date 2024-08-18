@@ -2,7 +2,7 @@
 
  ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/mks.jpg)
 
- #What is Makerbase MKS DLC32 ?
+ # What is Makerbase MKS DLC32 ?
 
  On official github page https://github.com/makerbase-mks/MKS-DLC32 did:
 
@@ -16,7 +16,7 @@
 
  Also here https://github.com/makerbase-mks/MKS-DLC32 you find all firmware compatible with mks dlc32.
 
- #What want this project
+ # What want this project
 
  In this project explain how install micropython on mks dlc32 and use custom commands to control the board.
 
