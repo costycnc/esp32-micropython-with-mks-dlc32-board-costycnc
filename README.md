@@ -39,7 +39,7 @@ webrepl source https://github.com/micropython/webrepl
 
  Open https://www.serialterminal.com/ or another terminal (at 115200 bauds), and connect over usb with esp32 ... and write "import webrepl_setup"
 
- ![](https://cdn-learn.adafruit.com/assets/assets/000/037/676/original/micropython_Screen_Shot_2016-12-02_at_1.27.43_PM.png)
+ ![](https://github.com/costycnc/esp32-micropython-with-mks-dlc32-board-costycnc/blob/main/foto/webrepl.jpg)
 
 # 3-Set esp32 as AP mode (access point) 
 
