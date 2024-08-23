@@ -111,6 +111,10 @@ Insert line by line in terminal and send...
     ap.active(True)
     ap.config(essid="costycnc", password="costycnc")
 
+# 8-Mks pins    
+
+https://github.com/makerbase-mks/MKS-DLC32-FIRMWARE/blob/main/Firmware/Grbl_Esp32/src/Machines/3axis_v4.h
+
 and with this code activate AP at any boot    
 
 
