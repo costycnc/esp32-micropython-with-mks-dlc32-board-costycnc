@@ -116,6 +116,10 @@ and with this code activate AP at any boot
 
 https://github.com/makerbase-mks/MKS-DLC32-FIRMWARE/blob/main/Firmware/Grbl_Esp32/src/Machines/3axis_v4.h
 
+#9-Quick reference for the ESP32
+
+https://docs.micropython.org/en/latest/esp32/quickref.html
+
   
 
 
