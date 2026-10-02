@@ -206,11 +206,17 @@ For example:
 
 With this code, the Access Point can be activated automatically after boot.
 
-The original project also used:
+### The original way to run a Python file
+
+The original experiment used:
 
     exec(open("test.py").read())
 
-to execute a Python file from the ESP32.
+This reads the contents of "test.py" from the ESP32 filesystem and executes the Python code with exec().
+
+It was useful during the original experiment because a Python program could be uploaded separately and then executed from the MicroPython terminal.
+
+This line is documented here as part of the **original experiment**. It is not presented as the preferred or only modern way to run MicroPython scripts.
 
 ---
 
